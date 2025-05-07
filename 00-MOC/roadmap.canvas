@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"ed9afcad-67f7-429d-90c3-dc976df86e8c","type":"text","text":"## Misc\n- [[gradle]]\n- [[testing]]\n- [[best‑practices]]\n- [[common‑problems]]","x":353,"y":-353,"width":267,"height":193,"color":"#9e9e9e"},
+		{"id":"88c2680d-ecd8-411d-a1cb-43feba22fd83","type":"text","text":"# Android Interview Roadmap","x":-30,"y":-15,"width":300,"height":150,"color":"#ff0000"},
+		{"id":"f521d92e-4315-43cd-ae24-29c7e38bea1f","type":"text","text":"## Android SDK\n- [[activity‑lifecycle]]\n- [[fragment‑lifecycle]]\n- [[intent‑types]]\n- [[context]]\n- [[viewmodel]]\n- [[livedata]]\n- [[recyclerview]]\n- [[save‑state]]","x":-10,"y":260,"width":260,"height":320,"color":"#4caf50"},
+		{"id":"8caeb48b-8120-47a2-9d5a-51d384197c9a","type":"text","text":"## Kotlin Advanced\n- [[sealed‑classes]]\n- [[extension‑function]]\n- [[collections]]\n- [[lambdas]]\n- [[coroutines]]\n- [[enum‑vs‑sealed]]","x":320,"y":260,"width":267,"height":267,"color":"#9c27b0"},
+		{"id":"23ab7acf-195d-4ea2-a3c4-61a8bc5e4ff6","type":"text","text":"## Network\n- [[retrofit]]\n- [[okhttp]]\n- [[retrofit‑error‑handling]]\n- [[caching‑retry]]","x":-20,"y":-360,"width":280,"height":200,"color":"#00bcd4"},
+		{"id":"e1620b94-af8c-403a-99b6-378bf473f61f","type":"text","text":"## UI\n- [[compose]]\n- [[compose‑vs‑xml]]\n- [[custom‑view]]\n- [[styles‑themes]]\n- [[dark‑light‑theme]]\n- [[adapter‑pattern]]","x":-340,"y":-360,"width":247,"height":253,"color":"#e91e63"},
+		{"id":"4c8bc7c6-2e13-4639-b16c-c9b875579221","type":"text","text":"## Jetpack\n- [[navigation‑component]]\n- [[room]]\n- [[workmanager]]\n- [[datastore]]\n","x":-540,"y":0,"width":280,"height":200,"color":"#ff9800"},
+		{"id":"63478ce2-71bc-42a5-a3c8-5de38af12626","type":"text","text":"## Kotlin Basics\n- [[var‑vs‑val]]\n- [[null‑safety]]\n- [[data‑class]]","x":454,"y":20,"width":240,"height":160,"color":"#9c27b0"},
+		{"id":"d5a8536e-dc18-4a14-875f-86226e343b07","type":"text","text":"## Architecture\n- [[mvvm]]\n- [[clean‑architecture]]\n- [[dependency‑injection]]\n- [[di‑frameworks]]\n- [[repository‑pattern]]","x":-340,"y":260,"width":273,"height":227,"color":"#03a9f4"}
+	],
+	"edges":[
+		{"id":"26434e111eb8f1ca","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"left","toNode":"4c8bc7c6-2e13-4639-b16c-c9b875579221","toSide":"right"},
+		{"id":"3cd5728c8ed0a29f","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"left","toNode":"e1620b94-af8c-403a-99b6-378bf473f61f","toSide":"bottom"},
+		{"id":"ba527a2e712a7d85","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"top","toNode":"23ab7acf-195d-4ea2-a3c4-61a8bc5e4ff6","toSide":"bottom"},
+		{"id":"41aa539de57f4e4b","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"left","toNode":"d5a8536e-dc18-4a14-875f-86226e343b07","toSide":"top"},
+		{"id":"e14ea88fc6ef9063","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"right","toNode":"ed9afcad-67f7-429d-90c3-dc976df86e8c","toSide":"bottom"},
+		{"id":"94c621a7f0e0dea7","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"right","toNode":"63478ce2-71bc-42a5-a3c8-5de38af12626","toSide":"left"},
+		{"id":"0ee60343bb92f915","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"bottom","toNode":"8caeb48b-8120-47a2-9d5a-51d384197c9a","toSide":"top"},
+		{"id":"f41a8e34b3862e53","fromNode":"88c2680d-ecd8-411d-a1cb-43feba22fd83","fromSide":"bottom","toNode":"f521d92e-4315-43cd-ae24-29c7e38bea1f","toSide":"top"}
+	]
+}
